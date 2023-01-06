@@ -1,0 +1,13 @@
+from genericpath import exists
+from selenium import webdriver
+import time
+import Instagram
+
+i = 0
+while (i <= 100): 
+    pesquisar1()
+    mandarMensagem()
+    i = i + 1
+    time.sleep(10)
+else:
+    print("Foram enviadas 100 mensagens")
